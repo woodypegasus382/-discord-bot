@@ -96,5 +96,5 @@ async def on_message(message):
 
 # 运行Discord客户端
 # 请将下面的令牌替换为你的Bot令牌
-token = os.getenv('DISCORD_TOKEN')  # 使用环境变量来存储你的Bot令牌
+token = 'YOUR_DISCORD_TOKEN_HERE'  # 将YOUR_DISCORD_TOKEN_HERE替换为你的Bot令牌
 client.run(token)
