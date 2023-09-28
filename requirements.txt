@@ -1,0 +1,6 @@
+mcstatus
+discord.py
+ping3
+requests
+load_dotenv
+pytz
