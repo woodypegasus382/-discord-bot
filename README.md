@@ -1,6 +1,12 @@
 想要有和
 🌟凌晨伺服器🌟 監視系統嗎?
 
+請pip這些項目
+discord,
+requests,
+pytz,
+mcstatus
+
 只需修改
 you_server_ip,
 you_server_port, 
