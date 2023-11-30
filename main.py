@@ -61,7 +61,7 @@ async def update_server_status(channel):
                 embed.add_field(name='伺服器 Port', value=server_data['port'], inline=False)
                 embed.add_field(name='基岩版Port', value={Bedrock}, inline=False) #和這裡!
                 embed.add_field(name='檢查時間', value=taiwan_time, inline=False)
-                embed.add_field(name='ping', value=無法取得, inline=False)
+                embed.add_field(name='ping', value="無法取得", inline=False)
                 embed.set_footer(text='', icon_url='') #這裡可以打下面的文字與圖片 圖片請輸入url
 
                 if status_message is not None:
